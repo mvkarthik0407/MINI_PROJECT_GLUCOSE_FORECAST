@@ -1,0 +1,19 @@
+.venv/
+frontend/node_modules/
+mobile/node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+*.log
+
+# Local runtime databases and environment secrets
+*.db
+cache/*.float32
+cache/*.bin
+*.csv
+*.parquet
+data/
+.env
+.env.*
+!.env.example

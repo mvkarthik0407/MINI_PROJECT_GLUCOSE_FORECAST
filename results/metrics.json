@@ -1,0 +1,15 @@
+{
+  "test_sequences": 3365788,
+  "test_sequence_cap": null,
+  "mae_mg_dl": 6.442710396066593,
+  "rmse_mg_dl": 11.586213402849,
+  "r2": 0.9757511361560129,
+  "best_validation_loss_scaled": 0.025316192886974023,
+  "glycemic_risk_distribution": {
+    "level_1_hyperglycemia": 814953,
+    "level_1_hypoglycemia": 120719,
+    "level_2_hyperglycemia": 438014,
+    "level_2_hypoglycemia": 12971,
+    "target_range": 1979131
+  }
+}

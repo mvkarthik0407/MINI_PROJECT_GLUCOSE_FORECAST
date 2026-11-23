@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Diabetes Digital Twin",
+    "slug": "diabetes-digital-twin",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.example.diabetesdigitaltwin"
+    },
+    "ios": {
+      "bundleIdentifier": "com.example.diabetesdigitaltwin"
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-secure-store",
+      [
+        "expo-notifications",
+        {
+          "color": "#0d477f"
+        }
+      ]
+    ]
+  }
+}

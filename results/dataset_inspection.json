@@ -1,0 +1,147 @@
+{
+  "files": {
+    "Biochemical_parameters.csv": {
+      "rows": 87482,
+      "columns": [
+        "Patient_ID",
+        "Reception_date",
+        "Name",
+        "Value"
+      ],
+      "dtypes": {
+        "Patient_ID": "object",
+        "Reception_date": "object",
+        "Name": "object",
+        "Value": "object"
+      },
+      "missing_values": {
+        "Patient_ID": 0,
+        "Reception_date": 0,
+        "Name": 0,
+        "Value": 0
+      },
+      "duplicate_rows": 12,
+      "unique_patients": 723,
+      "min_date": "2018-01-01 00:00:00",
+      "max_date": "2022-03-21 00:00:00",
+      "biochemical_parameter_names": [
+        "Alanine transaminase (GPT)",
+        "Albumin (urine)",
+        "Chlorine",
+        "Creatinine",
+        "Creatinine (urine)",
+        "Gamma-glutamyl Transferase (GGT)",
+        "Glucose",
+        "Glycated hemoglobin (A1c)",
+        "HDL cholesterol",
+        "IA2 ANTIBODIES",
+        "Insulin",
+        "Potassium",
+        "Sodium",
+        "Thyrotropin (TSH)",
+        "Total cholesterol",
+        "Triglycerides",
+        "Uric acid"
+      ]
+    },
+    "Diagnostics.csv": {
+      "rows": 1757,
+      "columns": [
+        "Patient_ID",
+        "Code",
+        "Description"
+      ],
+      "dtypes": {
+        "Patient_ID": "object",
+        "Code": "object",
+        "Description": "object"
+      },
+      "missing_values": {
+        "Patient_ID": 0,
+        "Code": 0,
+        "Description": 0
+      },
+      "duplicate_rows": 24,
+      "unique_patients": 511
+    },
+    "Glucose_measurements.csv": {
+      "rows": 22671708,
+      "columns": [
+        "Patient_ID",
+        "Measurement_date",
+        "Measurement_time",
+        "Measurement"
+      ],
+      "dtypes": {
+        "Patient_ID": "object",
+        "Measurement_date": "object",
+        "Measurement_time": "object",
+        "Measurement": "object"
+      },
+      "missing_values": {
+        "Patient_ID": 0,
+        "Measurement_date": 0,
+        "Measurement_time": 0,
+        "Measurement": 0
+      },
+      "duplicate_rows": 0,
+      "unique_patients": 736,
+      "min_date": "2018-01-06 00:00:00",
+      "max_date": "2022-03-21 00:00:00",
+      "measurement_statistics": {
+        "count": 22671708,
+        "mean": 164.78373265922443,
+        "std": 71.57473423003222,
+        "min": 40.0,
+        "25%": 112.0,
+        "50%": 153.0,
+        "75%": 206.0,
+        "max": 500.0
+      }
+    },
+    "Patient_info.csv": {
+      "rows": 736,
+      "columns": [
+        "Patient_ID",
+        "Sex",
+        "Birth_year",
+        "Initial_measurement_date",
+        "Final_measurement_date",
+        "Number_of_days_with_measures",
+        "Number_of_measurements",
+        "Initial_biochemical_parameters_date",
+        "Final_biochemical_parameters_date",
+        "Number_of_biochemical_parameters",
+        "Number_of_diagnostics"
+      ],
+      "dtypes": {
+        "Patient_ID": "object",
+        "Sex": "object",
+        "Birth_year": "object",
+        "Initial_measurement_date": "object",
+        "Final_measurement_date": "object",
+        "Number_of_days_with_measures": "object",
+        "Number_of_measurements": "object",
+        "Initial_biochemical_parameters_date": "object",
+        "Final_biochemical_parameters_date": "object",
+        "Number_of_biochemical_parameters": "object",
+        "Number_of_diagnostics": "object"
+      },
+      "missing_values": {
+        "Patient_ID": 0,
+        "Sex": 0,
+        "Birth_year": 0,
+        "Initial_measurement_date": 0,
+        "Final_measurement_date": 0,
+        "Number_of_days_with_measures": 0,
+        "Number_of_measurements": 0,
+        "Initial_biochemical_parameters_date": 13,
+        "Final_biochemical_parameters_date": 13,
+        "Number_of_biochemical_parameters": 13,
+        "Number_of_diagnostics": 225
+      },
+      "duplicate_rows": 0,
+      "unique_patients": 736
+    }
+  }
+}

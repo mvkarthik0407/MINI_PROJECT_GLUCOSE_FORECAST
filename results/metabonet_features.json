@@ -1,0 +1,14 @@
+{
+  "features": [
+    "cgm",
+    "basal",
+    "bolus",
+    "carbs",
+    "time_sin",
+    "time_cos",
+    "weekday_sin",
+    "weekday_cos"
+  ],
+  "feature_count": 8,
+  "segment_count": 1731
+}

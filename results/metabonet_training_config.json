@@ -1,0 +1,18 @@
+{
+  "project_dir": ".",
+  "train_parquet": "C:\\Downloads\\train.parquet",
+  "test_parquet": "C:\\Downloads\\test.parquet",
+  "sequence_length": 48,
+  "forecast_steps": 6,
+  "epochs": 3,
+  "batch_size": 256,
+  "hidden_size": 64,
+  "learning_rate": 0.001,
+  "patience": 2,
+  "workers": 0,
+  "max_sequences": 500000,
+  "device": "cpu",
+  "input_size": 8,
+  "train_sequence_cap": 500000,
+  "validation_sequence_cap": 125000
+}

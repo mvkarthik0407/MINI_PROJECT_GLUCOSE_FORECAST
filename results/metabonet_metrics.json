@@ -1,0 +1,8 @@
+{
+  "test_sequence_cap": 100000,
+  "forecast_steps": 6,
+  "mae_mg_dl": 10.340518005249638,
+  "rmse_mg_dl": 15.34033877003648,
+  "r2": 0.9128180131602357,
+  "best_validation_loss_scaled": 0.07200752144002914
+}
