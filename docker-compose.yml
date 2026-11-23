@@ -17,8 +17,8 @@ services:
     build: .
     environment:
       DATABASE_URL: ${DATABASE_URL:?Set DATABASE_URL in .env}
-      MODEL_PATH: /app/models/best_gru_model.pth
-      SCALER_PATH: /app/scalers/glucose_scaler.pkl
+      MODEL_PATH: /app/models/best_metabonet_gru_model.pth
+      SCALER_PATH: /app/scalers/metabonet_scaler.pkl
       MODEL_DEVICE: cpu
       APP_ENV: production
       AUTH_SECRET: ${AUTH_SECRET:?Set AUTH_SECRET in .env}
